@@ -10,7 +10,7 @@ Requirements
 Usage
 
 1. Clone or Download the Repository:
-   git clone https://github.com/your_username/wordpress-access-script.git
+   git clone https://github.com/rankgnar/Wordpress_acount_access.git
    cd Wordpress_acount_access
 
 2. Run the Script from the Command Line:
@@ -30,7 +30,11 @@ Usage
    - Username
    - Password
 
-4. The script will perform authentication, save information in CSV and JSON files, and display messages in the console.
+4. **Ensure JWT-Auth is Configured on WordPress:**
+
+   - Before using this script, make sure the WordPress site has the JWT-Auth plugin configured. You can find the plugin (https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/).
+
+5. The script will perform authentication, save information in CSV and JSON files, and display messages in the console.
 
 File Structure
 
