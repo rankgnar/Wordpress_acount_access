@@ -17,11 +17,11 @@ Usage
 
    - On Windows:
      ```bash
-     python Wordpress_acount_access.py
+     python main.py
      ```
    - On Mac/Linux:
      ```bash
-     python3 Wordpress_acount_access.py
+     python3 main.py
      ```
 
 3. Enter the Required Data:
