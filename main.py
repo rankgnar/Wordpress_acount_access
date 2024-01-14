@@ -43,10 +43,10 @@ def access_wordpress_account(domain, username, password):
     except Exception as e:
         print(f'Error: {str(e)}')
 
-# Obtener datos mediante inputs
+
 wordpress_domain = input("Enter the domain of WordPress site (example: https://yourdomain.com): ")
 wordpress_username = input("Enter the username: ")
 wordpress_password = input("Enter the password: ")
 
-# Llamar a la función con los datos ingresados
+
 access_wordpress_account(wordpress_domain, wordpress_username, wordpress_password)
